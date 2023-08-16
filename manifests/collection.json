@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest12.json",
     "label" : "[Click to edit label]"
+  }, {
+    "id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest13.json",
+    "label" : {
+      "none" : [ "[Click to edit label]" ]
+    },
+    "type" : "Manifest"
   } ]
 }
