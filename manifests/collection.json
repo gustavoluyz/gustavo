@@ -15,9 +15,5 @@
       "none" : [ "[Click to edit label]" ]
     },
     "type" : "Manifest"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest14.json",
-    "label" : "[Click to edit label]"
   } ]
 }
