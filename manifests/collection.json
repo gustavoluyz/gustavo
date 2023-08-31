@@ -15,5 +15,11 @@
       "none" : [ "[Click to edit label]" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest12-3.json",
+    "label" : {
+      "none" : [ "[Click to edit label]" ]
+    },
+    "type" : "Manifest"
   } ]
 }
