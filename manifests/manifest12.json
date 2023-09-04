@@ -2,8 +2,8 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest12.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
-  "description" : "[Click to edit description]",
+  "label" : "[Biblioteca Nacional Digital]",
+  "description" : "[Iconografia]",
   "attribution" : "[Click to edit attribution]",
   "sequences" : [ {
     "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest12.json/sequence0",
