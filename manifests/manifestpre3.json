@@ -1,0 +1,135 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://gustavoluyz.github.io/gustavo/manifests/manifestpre3.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Blank Manifest" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/canvas/f147f6be-e48e-460c-add2-747dd186568f",
+    "type" : "Canvas",
+    "height" : 2233,
+    "width" : 3118,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/canvas/f147f6be-e48e-460c-add2-747dd186568f/annotation-page/d641521a-fe81-44f1-889a-0b31a5187838",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/annotation/fe05b3a7-412e-414a-8d86-68e3cb06e218",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/canvas/f147f6be-e48e-460c-add2-747dd186568f",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/icon628288.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2233,
+          "width" : 3118,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/icon628288.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3118,
+            "height" : 2233,
+            "sizes" : [ {
+              "width" : 97,
+              "height" : 70
+            }, {
+              "width" : 195,
+              "height" : 140
+            }, {
+              "width" : 390,
+              "height" : 279
+            }, {
+              "width" : 780,
+              "height" : 558
+            }, {
+              "width" : 1559,
+              "height" : 1117
+            }, {
+              "width" : 3118,
+              "height" : 2233
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 6962494,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/icon628288.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/canvas/52981b55-342e-4c0a-93cd-b601894d8e34",
+    "type" : "Canvas",
+    "height" : 2269,
+    "width" : 3118,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/canvas/52981b55-342e-4c0a-93cd-b601894d8e34/annotation-page/7b545b40-2014-413a-9747-decbd2896966",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/annotation/769dabe1-7a24-43cd-8257-3d2656ba6b8f",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/canvas/52981b55-342e-4c0a-93cd-b601894d8e34",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/icon628285.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2269,
+          "width" : 3118,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/icon628285.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3118,
+            "height" : 2269,
+            "sizes" : [ {
+              "width" : 97,
+              "height" : 71
+            }, {
+              "width" : 195,
+              "height" : 142
+            }, {
+              "width" : 390,
+              "height" : 284
+            }, {
+              "width" : 780,
+              "height" : 567
+            }, {
+              "width" : 1559,
+              "height" : 1135
+            }, {
+              "width" : 3118,
+              "height" : 2269
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 7074742,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/icon628285.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
