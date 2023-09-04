@@ -29,5 +29,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifestpre2.json",
     "label" : "Blank Manifest"
+  }, {
+    "id" : "https://gustavoluyz.github.io/gustavo/manifests/manifestpre3.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
