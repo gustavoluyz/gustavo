@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifestpre2.json",
   "@type" : "sc:Manifest",
-  "label" : "Blank Manifest",
+  "label" : "Biblioteca Nacional Digital pre 2",
   "sequences" : [ {
     "@id" : "https://example.org/b0720bc6-9730-46e8-b3f8-112e958595f8/sequence0",
     "@type" : "sc:Sequence",
