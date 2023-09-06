@@ -1,434 +1,294 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest12-2.json",
-  "@type" : "sc:Manifest",
-  "label" : "[Biblioteca Nacional Digital]",
-  "description" : "[Iconografia]",
-  "attribution" : "[Click to edit attribution]",
-  "sequences" : [ {
-    "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest12.json/sequence0",
-    "@type" : "sc:Sequence",
-    "canvases" : [ {
-      "@id" : "http://460f962b-afad-4e22-a7f3-be8822a57644",
-      "@type" : "sc:Canvas",
-      "height" : 1824,
-      "width" : 2547,
-      "label" : "icon628288",
-      "images" : [ {
-        "@id" : "http://b1fa74f3-8ee2-4a00-b1c4-5a2e7b122949",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://460f962b-afad-4e22-a7f3-be8822a57644",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628288.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1824,
-          "width" : 2547,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628288.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628288.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://f41998d3-518e-4706-bb3c-c759fd1986e9",
-      "@type" : "sc:Canvas",
-      "height" : 1845,
-      "width" : 2535,
-      "label" : "icon628285",
-      "images" : [ {
-        "@id" : "http://c1c4c533-8423-4b44-b9ca-ff8738802076",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://f41998d3-518e-4706-bb3c-c759fd1986e9",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628285.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1845,
-          "width" : 2535,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628285.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628285.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://7270d7cb-002e-4801-86ed-f15ef64769f1",
-      "@type" : "sc:Canvas",
-      "height" : 1827,
-      "width" : 2568,
-      "label" : "icon628279",
-      "images" : [ {
-        "@id" : "http://2d75ea91-ed9d-4d1d-b369-e1d93836b0c2",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://7270d7cb-002e-4801-86ed-f15ef64769f1",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628279.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1827,
-          "width" : 2568,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628279.jpg",
-            "profile" : "level2"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://bb388e82-0550-4ebf-aed3-915794ccb890",
-      "@type" : "sc:Canvas",
-      "height" : 1808,
-      "width" : 2524,
-      "label" : "icon628282",
-      "images" : [ {
-        "@id" : "http://04dc2b01-5bc7-40de-8d36-42e6ddaa80fb",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://bb388e82-0550-4ebf-aed3-915794ccb890",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628282.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1808,
-          "width" : 2524,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628282.jpg",
-            "profile" : "level2"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://e96f9d0b-1926-4c2f-8e5c-0fd5f9278289",
-      "@type" : "sc:Canvas",
-      "height" : 2560,
-      "width" : 1812,
-      "label" : "icon628281",
-      "images" : [ {
-        "@id" : "http://f03a2b55-3b56-47d8-b755-46e33550e530",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://e96f9d0b-1926-4c2f-8e5c-0fd5f9278289",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628281.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 2560,
-          "width" : 1812,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628281.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628281.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://0f097295-38db-4d9a-a1b5-58c887a2a724",
-      "@type" : "sc:Canvas",
-      "height" : 1806,
-      "width" : 2508,
-      "label" : "icon628287",
-      "images" : [ {
-        "@id" : "http://543b5e13-59c6-4109-89f7-1fb97e9719de",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://0f097295-38db-4d9a-a1b5-58c887a2a724",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628287.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1806,
-          "width" : 2508,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628287.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628287.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://03e8cca3-290c-4bea-b6fa-d81ce04f952e",
-      "@type" : "sc:Canvas",
-      "height" : 1851,
-      "width" : 2580,
-      "label" : "icon628286",
-      "images" : [ {
-        "@id" : "http://3a203c00-7c44-4585-9fe2-a67d874879ca",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://03e8cca3-290c-4bea-b6fa-d81ce04f952e",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628286.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1851,
-          "width" : 2580,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628286.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628286.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://5eb6ca9f-e76d-4359-bcae-72c84b794d00",
-      "@type" : "sc:Canvas",
-      "height" : 1830,
-      "width" : 2577,
-      "label" : "icon628284",
-      "images" : [ {
-        "@id" : "http://2c4fcfbf-4d47-4a42-ab70-2291ffda42dd",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://5eb6ca9f-e76d-4359-bcae-72c84b794d00",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628284.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1830,
-          "width" : 2577,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628284.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628284.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://d44825ff-8721-4b30-95d1-843810cd378c",
-      "@type" : "sc:Canvas",
-      "height" : 1863,
-      "width" : 2564,
-      "label" : "icon628283",
-      "images" : [ {
-        "@id" : "http://3d20acc3-5d2f-4a05-9a4a-87a4a3057925",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://d44825ff-8721-4b30-95d1-843810cd378c",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628283.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1863,
-          "width" : 2564,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628283.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628283.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://e3df8071-567e-4d8e-b283-41b621aa18b1",
-      "@type" : "sc:Canvas",
-      "height" : 1844,
-      "width" : 2584,
-      "label" : "icon628276",
-      "images" : [ {
-        "@id" : "http://a875a347-7c08-404d-a5c8-ffc0c5832f9f",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://e3df8071-567e-4d8e-b283-41b621aa18b1",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628276.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1844,
-          "width" : 2584,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628276.jpg",
-            "profile" : "level2"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://3296a5b3-2952-4cd8-8262-1269bd7aa9a1",
-      "@type" : "sc:Canvas",
-      "height" : 2537,
-      "width" : 1795,
-      "label" : "icon682277",
-      "images" : [ {
-        "@id" : "http://207a4ec2-eedb-4083-9b1d-793b6d587990",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://3296a5b3-2952-4cd8-8262-1269bd7aa9a1",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628277.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 2537,
-          "width" : 1795,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628277.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628277.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://81776d6d-3dac-4b76-8fd8-744c47725d01",
-      "@type" : "sc:Canvas",
-      "height" : 2536,
-      "width" : 1819,
-      "label" : "icon628278",
-      "images" : [ {
-        "@id" : "http://011b1662-f294-48ed-8b72-93e970bcf87c",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://81776d6d-3dac-4b76-8fd8-744c47725d01",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628278.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 2536,
-          "width" : 1819,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628278.jpg",
-            "profile" : "level2"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://ed811e6d-0942-42b4-86d7-04f05b19139f",
-      "@type" : "sc:Canvas",
-      "height" : 2552,
-      "width" : 1875,
-      "label" : "icon628280",
-      "images" : [ {
-        "@id" : "http://b64fe1ee-6813-49ed-843a-598396cdcac3",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://ed811e6d-0942-42b4-86d7-04f05b19139f",
-            "type" : "Canvas"
-          },
-          "selector" : {
-            "type" : "FragmentSelector",
-            "value" : "xywh=375,510,1125,1531"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon628280.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 2552,
-          "width" : 1875,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon628280.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon628280.jpg"
-          }
-        }
-      } ]
-    }, {
-      "@id" : "http://01369524-a39c-4570-a1d0-b8c971bb5fc6",
-      "@type" : "sc:Canvas",
-      "height" : 1458,
-      "width" : 3216,
-      "label" : "icon634341",
-      "images" : [ {
-        "@id" : "http://9338317f-db1b-45aa-9e04-f17781546b2d",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "http://01369524-a39c-4570-a1d0-b8c971bb5fc6",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "http://127.0.0.1:8182/iiif/2/icon634341.jpg/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1458,
-          "width" : 3216,
-          "service" : {
-            "@id" : "http://127.0.0.1:8182/iiif/2/icon634341.jpg",
-            "profile" : "level2",
-            "id" : "http://127.0.0.1:8182/iiif/2/icon634341.jpg"
-          }
-        }
-      } ]
-    } ]
-  } ],
-  "structures" : [ ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://d012eea6-936b-4e1b-acca-0328537df1d3",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://0801083d-c130-43f9-8af7-52b3fcb7b289",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://cbfb3dc1-9e4a-4263-b6c2-ea8fbf510d94",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2974,
+					"width": 1820,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f86e7e7d-1bc8-40d7-a06b-f5ec8bd0c6c2",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.wellcomecollection.org/image/b22292196_0003.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.wellcomecollection.org/image/b22292196_0003.jp2",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2974,
+								"width": 1820
+							},
+							"on": "http://cbfb3dc1-9e4a-4263-b6c2-ea8fbf510d94"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://7cf44a46-5d80-4dcf-8691-2850389f8f75",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2974,
+					"width": 1820,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8efbe492-e694-41ed-8e38-7ef7d22af606",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.wellcomecollection.org/image/b22292196_0005.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.wellcomecollection.org/image/b22292196_0005.jp2",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2974,
+								"width": 1820
+							},
+							"on": "http://7cf44a46-5d80-4dcf-8691-2850389f8f75"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://dba0c667-f0ed-4658-b434-0b01183c328e",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2974,
+					"width": 1820,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://4b27e29c-9fd1-4a95-99dc-30580bed6dff",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.wellcomecollection.org/image/b22292196_0007.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.wellcomecollection.org/image/b22292196_0007.jp2",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2974,
+								"width": 1820
+							},
+							"on": "http://dba0c667-f0ed-4658-b434-0b01183c328e"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://e1259b39-b1bf-4518-9928-9b5009668785",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2974,
+					"width": 1820,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://88e1960f-3204-4d25-ba87-96197e6bb132",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.wellcomecollection.org/image/b22292196_0009.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.wellcomecollection.org/image/b22292196_0009.jp2",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2974,
+								"width": 1820
+							},
+							"on": "http://e1259b39-b1bf-4518-9928-9b5009668785"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
 }
