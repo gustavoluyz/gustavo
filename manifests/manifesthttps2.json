@@ -1,0 +1,362 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifesthttps2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Blank Manifest",
+  "sequences" : [ {
+    "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/sequence0",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/b684eeac-2883-494f-869c-b42262d8ddbb",
+      "@type" : "sc:Canvas",
+      "height" : 1824,
+      "width" : 2547,
+      "label" : "icon628288",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/9f3bc58e-e946-46a6-bed1-523fe13e52b8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/b684eeac-2883-494f-869c-b42262d8ddbb",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628288.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1824,
+          "width" : 2547
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3bf2f762-f214-4b84-b550-b69d6c65b71e",
+      "@type" : "sc:Canvas",
+      "height" : 1845,
+      "width" : 2535,
+      "label" : "icon628285",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/5f34046b-2f07-42e8-a75a-abd39a8b1512",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3bf2f762-f214-4b84-b550-b69d6c65b71e",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628285.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1845,
+          "width" : 2535
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/a4c7d96a-e59c-4e84-a832-b545b62bb986",
+      "@type" : "sc:Canvas",
+      "height" : 1827,
+      "width" : 2568,
+      "label" : "icon628279",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/51cc3e42-0e6d-4b3d-8012-1d0040df82d3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/a4c7d96a-e59c-4e84-a832-b545b62bb986",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628279.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1827,
+          "width" : 2568
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/09c5439a-8f27-4773-862d-edd5e0d37c0f",
+      "@type" : "sc:Canvas",
+      "height" : 1808,
+      "width" : 2524,
+      "label" : "icon628282",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/1b36bdaf-3f27-4b42-9dc6-0cd6c4e81615",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/09c5439a-8f27-4773-862d-edd5e0d37c0f",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628282.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1808,
+          "width" : 2524
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/f62863f5-2c29-4702-af5e-f6bee33619c0",
+      "@type" : "sc:Canvas",
+      "height" : 2560,
+      "width" : 1812,
+      "label" : "icon628281",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/9e92348b-87f7-47de-93e3-c9c6201256d6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/f62863f5-2c29-4702-af5e-f6bee33619c0",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628281.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2560,
+          "width" : 1812
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/05c85c28-565e-4f18-bd23-6f9c5c284d3e",
+      "@type" : "sc:Canvas",
+      "height" : 1806,
+      "width" : 2508,
+      "label" : "icon628287",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/6f2455df-17e0-4e4e-8b96-275eb9057b0a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/05c85c28-565e-4f18-bd23-6f9c5c284d3e",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628287.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1806,
+          "width" : 2508
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/e803cbe8-7128-4d94-a519-9da075bef507",
+      "@type" : "sc:Canvas",
+      "height" : 1851,
+      "width" : 2580,
+      "label" : "icon628286",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/f8ece712-4ba6-4dbc-abb0-2913246028e4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/e803cbe8-7128-4d94-a519-9da075bef507",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628286.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1851,
+          "width" : 2580
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/baef9f83-73e3-4ee4-9414-96963a356035",
+      "@type" : "sc:Canvas",
+      "height" : 1830,
+      "width" : 2577,
+      "label" : "icon628284",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/858b6311-9855-4037-8a52-d72e9b955cb1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/baef9f83-73e3-4ee4-9414-96963a356035",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628284.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1830,
+          "width" : 2577
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3de501b3-dfa6-411e-a003-a79c13d4c8ba",
+      "@type" : "sc:Canvas",
+      "height" : 1863,
+      "width" : 2564,
+      "label" : "icon628283",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/fd3750aa-c414-47c2-a880-5deaf29297f5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3de501b3-dfa6-411e-a003-a79c13d4c8ba",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628283.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1863,
+          "width" : 2564
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/13f1d555-ab64-4988-8097-aad35f002ecc",
+      "@type" : "sc:Canvas",
+      "height" : 1844,
+      "width" : 2584,
+      "label" : "icon628276",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/0ef1b46a-7e5f-4f6c-af58-6c673b328594",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/13f1d555-ab64-4988-8097-aad35f002ecc",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628276.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1844,
+          "width" : 2584
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/cd732e2a-dd88-4ad4-ab4d-b5b6d1949837",
+      "@type" : "sc:Canvas",
+      "height" : 2537,
+      "width" : 1795,
+      "label" : "icon628277",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/f576bdba-df4a-407f-a082-c1f9636a2617",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/cd732e2a-dd88-4ad4-ab4d-b5b6d1949837",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628277.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2537,
+          "width" : 1795
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/2caa9dd4-7d75-466f-8f80-4fc6cc113180",
+      "@type" : "sc:Canvas",
+      "height" : 2536,
+      "width" : 1819,
+      "label" : "icon628278",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/78279b0b-8b33-40fe-8ea2-5d218a897542",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/2caa9dd4-7d75-466f-8f80-4fc6cc113180",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628278.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2536,
+          "width" : 1819
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/64db2a81-1f59-4627-bd43-f601c9561c48",
+      "@type" : "sc:Canvas",
+      "height" : 2552,
+      "width" : 1875,
+      "label" : "icon628280",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/2fa40b8c-c3e1-42ab-bb9b-b0e4566e4c8d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/64db2a81-1f59-4627-bd43-f601c9561c48",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628280.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2552,
+          "width" : 1875
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/453052f2-bb23-4a34-b20b-20cd5fa24b11",
+      "@type" : "sc:Canvas",
+      "height" : 1458,
+      "width" : 3216,
+      "label" : "icon634341",
+      "images" : [ {
+        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/40eddc1d-574a-4256-9347-b7cf99a46d9e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/453052f2-bb23-4a34-b20b-20cd5fa24b11",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon634341.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1458,
+          "width" : 3216
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
