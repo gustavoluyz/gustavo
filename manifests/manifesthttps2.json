@@ -4,22 +4,22 @@
   "@type" : "sc:Manifest",
   "label" : "Blank Manifest",
   "sequences" : [ {
-    "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/sequence0",
+    "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/sequence0",
     "@type" : "sc:Sequence",
     "canvases" : [ {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/b684eeac-2883-494f-869c-b42262d8ddbb",
+      "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/b684eeac-2883-494f-869c-b42262d8ddbb",
       "@type" : "sc:Canvas",
       "height" : 1824,
       "width" : 2547,
       "label" : "icon628288",
       "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/9f3bc58e-e946-46a6-bed1-523fe13e52b8",
+        "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/9f3bc58e-e946-46a6-bed1-523fe13e52b8",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "on" : {
           "type" : "SpecificResource",
           "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/b684eeac-2883-494f-869c-b42262d8ddbb",
+            "id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/b684eeac-2883-494f-869c-b42262d8ddbb",
             "type" : "Canvas"
           }
         },
@@ -32,19 +32,19 @@
         }
       } ]
     }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3bf2f762-f214-4b84-b550-b69d6c65b71e",
+      "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3bf2f762-f214-4b84-b550-b69d6c65b71e",
       "@type" : "sc:Canvas",
       "height" : 1845,
       "width" : 2535,
       "label" : "icon628285",
       "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/5f34046b-2f07-42e8-a75a-abd39a8b1512",
+        "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/5f34046b-2f07-42e8-a75a-abd39a8b1512",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "on" : {
           "type" : "SpecificResource",
           "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3bf2f762-f214-4b84-b550-b69d6c65b71e",
+            "id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3bf2f762-f214-4b84-b550-b69d6c65b71e",
             "type" : "Canvas"
           }
         },
