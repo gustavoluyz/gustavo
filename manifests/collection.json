@@ -43,5 +43,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest2.json",
     "label" : "[Click to edit label]"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest10.json",
+    "label" : "Blank Manifest"
   } ]
 }
