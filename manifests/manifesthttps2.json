@@ -1,362 +1,863 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifesthttps2.json",
-  "@type" : "sc:Manifest",
-  "label" : "Blank Manifest",
-  "sequences" : [ {
-    "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/sequence0",
-    "@type" : "sc:Sequence",
-    "canvases" : [ {
-      "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/b684eeac-2883-494f-869c-b42262d8ddbb",
-      "@type" : "sc:Canvas",
-      "height" : 1824,
-      "width" : 2547,
-      "label" : "icon628288",
-      "images" : [ {
-        "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/9f3bc58e-e946-46a6-bed1-523fe13e52b8",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/b684eeac-2883-494f-869c-b42262d8ddbb",
-            "type" : "Canvas"
-          }
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b",
+  "@type": "sc:Manifest",
+  "label": "Blank Manifest",
+  "sequences": [
+    {
+      "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/sequence0",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/aed970ad-0e60-42c7-b117-ba13f1215913",
+          "@type": "sc:Canvas",
+          "height": 2974,
+          "width": 1820,
+          "label": "Untitled canvas",
+          "images": [
+            {
+              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/c33b943e-8999-42e8-8950-b79e2c9143fa",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/aed970ad-0e60-42c7-b117-ba13f1215913",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://iiif.wellcomecollection.org/image/b22292196_0003.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2974,
+                "width": 1820,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wellcomecollection.org/image/b22292196_0003.jp2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "tif",
+                        "jpg",
+                        "gif",
+                        "png"
+                      ],
+                      "qualities": [
+                        "bitonal",
+                        "default",
+                        "gray",
+                        "color"
+                      ],
+                      "supports": [
+                        "regionByPx",
+                        "sizeByW",
+                        "sizeByWhListed",
+                        "cors",
+                        "regionSquare",
+                        "sizeByDistortedWh",
+                        "canonicalLinkHeader",
+                        "sizeByConfinedWh",
+                        "sizeByPct",
+                        "jsonldMediaType",
+                        "regionByPct",
+                        "rotationArbitrary",
+                        "sizeByH",
+                        "baseUriRedirect",
+                        "rotationBy90s",
+                        "profileLinkHeader",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "mirroring"
+                      ]
+                    }
+                  ],
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1820,
+                  "height": 2974,
+                  "sizes": [
+                    {
+                      "width": 627,
+                      "height": 1024
+                    },
+                    {
+                      "width": 245,
+                      "height": 400
+                    },
+                    {
+                      "width": 122,
+                      "height": 200
+                    },
+                    {
+                      "width": 61,
+                      "height": 100
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "height": 512,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "id": "https://iiif.wellcomecollection.org/image/b22292196_0003.jp2",
+                  "type": "ImageService2"
+                }
+              }
+            }
+          ]
         },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628288.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1824,
-          "width" : 2547
-        }
-      } ]
-    }, {
-      "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3bf2f762-f214-4b84-b550-b69d6c65b71e",
-      "@type" : "sc:Canvas",
-      "height" : 1845,
-      "width" : 2535,
-      "label" : "icon628285",
-      "images" : [ {
-        "@id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/5f34046b-2f07-42e8-a75a-abd39a8b1512",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://objdigital.bn.br/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3bf2f762-f214-4b84-b550-b69d6c65b71e",
-            "type" : "Canvas"
-          }
+        {
+          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/6d9097bf-b74e-4296-b4f2-08a311ddc950",
+          "@type": "sc:Canvas",
+          "height": 2900,
+          "width": 1804,
+          "label": "Untitled canvas",
+          "images": [
+            {
+              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/66caa7d9-b6f5-4627-8b05-b9dd7429412e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/6d9097bf-b74e-4296-b4f2-08a311ddc950",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://iiif.wellcomecollection.org/image/b22292196_0004.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2900,
+                "width": 1804,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wellcomecollection.org/image/b22292196_0004.jp2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "tif",
+                        "jpg",
+                        "gif",
+                        "png"
+                      ],
+                      "qualities": [
+                        "bitonal",
+                        "default",
+                        "gray",
+                        "color"
+                      ],
+                      "supports": [
+                        "regionByPx",
+                        "sizeByW",
+                        "sizeByWhListed",
+                        "cors",
+                        "regionSquare",
+                        "sizeByDistortedWh",
+                        "canonicalLinkHeader",
+                        "sizeByConfinedWh",
+                        "sizeByPct",
+                        "jsonldMediaType",
+                        "regionByPct",
+                        "rotationArbitrary",
+                        "sizeByH",
+                        "baseUriRedirect",
+                        "rotationBy90s",
+                        "profileLinkHeader",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "mirroring"
+                      ]
+                    }
+                  ],
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1804,
+                  "height": 2900,
+                  "sizes": [
+                    {
+                      "width": 637,
+                      "height": 1024
+                    },
+                    {
+                      "width": 249,
+                      "height": 400
+                    },
+                    {
+                      "width": 124,
+                      "height": 200
+                    },
+                    {
+                      "width": 62,
+                      "height": 100
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "height": 512,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "id": "https://iiif.wellcomecollection.org/image/b22292196_0004.jp2",
+                  "type": "ImageService2"
+                }
+              }
+            }
+          ]
         },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628285.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1845,
-          "width" : 2535
-        }
-      } ]
-    }, {
-      "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/a4c7d96a-e59c-4e84-a832-b545b62bb986",
-      "@type" : "sc:Canvas",
-      "height" : 1827,
-      "width" : 2568,
-      "label" : "icon628279",
-      "images" : [ {
-        "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/51cc3e42-0e6d-4b3d-8012-1d0040df82d3",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/a4c7d96a-e59c-4e84-a832-b545b62bb986",
-            "type" : "Canvas"
-          }
+        {
+          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/f781ea23-d2b7-4298-9a51-508a452b60ea",
+          "@type": "sc:Canvas",
+          "height": 2974,
+          "width": 1820,
+          "label": "Untitled canvas",
+          "images": [
+            {
+              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/7c5427f5-e7c5-4274-9e6c-9cb49097d6d9",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/f781ea23-d2b7-4298-9a51-508a452b60ea",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://iiif.wellcomecollection.org/image/b22292196_0005.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2974,
+                "width": 1820,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wellcomecollection.org/image/b22292196_0005.jp2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "jpg",
+                        "tif",
+                        "gif",
+                        "png"
+                      ],
+                      "qualities": [
+                        "bitonal",
+                        "default",
+                        "gray",
+                        "color"
+                      ],
+                      "supports": [
+                        "regionByPx",
+                        "sizeByW",
+                        "sizeByWhListed",
+                        "cors",
+                        "regionSquare",
+                        "sizeByDistortedWh",
+                        "canonicalLinkHeader",
+                        "sizeByConfinedWh",
+                        "sizeByPct",
+                        "jsonldMediaType",
+                        "regionByPct",
+                        "rotationArbitrary",
+                        "sizeByH",
+                        "baseUriRedirect",
+                        "rotationBy90s",
+                        "profileLinkHeader",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "mirroring"
+                      ]
+                    }
+                  ],
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1820,
+                  "height": 2974,
+                  "sizes": [
+                    {
+                      "width": 627,
+                      "height": 1024
+                    },
+                    {
+                      "width": 245,
+                      "height": 400
+                    },
+                    {
+                      "width": 122,
+                      "height": 200
+                    },
+                    {
+                      "width": 61,
+                      "height": 100
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "height": 512,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "id": "https://iiif.wellcomecollection.org/image/b22292196_0005.jp2",
+                  "type": "ImageService2"
+                }
+              }
+            }
+          ]
         },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628279.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1827,
-          "width" : 2568
-        }
-      } ]
-    }, {
-      "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/09c5439a-8f27-4773-862d-edd5e0d37c0f",
-      "@type" : "sc:Canvas",
-      "height" : 1808,
-      "width" : 2524,
-      "label" : "icon628282",
-      "images" : [ {
-        "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/1b36bdaf-3f27-4b42-9dc6-0cd6c4e81615",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/09c5439a-8f27-4773-862d-edd5e0d37c0f",
-            "type" : "Canvas"
-          }
+        {
+          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c9067269-5ae1-4642-89f6-c95dd4c90760",
+          "@type": "sc:Canvas",
+          "height": 2900,
+          "width": 1804,
+          "label": "Untitled canvas",
+          "images": [
+            {
+              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/f51a7ff7-fb46-4296-830b-96364bf52d9b",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c9067269-5ae1-4642-89f6-c95dd4c90760",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://iiif.wellcomecollection.org/image/b22292196_0006.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2900,
+                "width": 1804,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wellcomecollection.org/image/b22292196_0006.jp2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "jpg",
+                        "tif",
+                        "gif",
+                        "png"
+                      ],
+                      "qualities": [
+                        "bitonal",
+                        "default",
+                        "gray",
+                        "color"
+                      ],
+                      "supports": [
+                        "regionByPx",
+                        "sizeByW",
+                        "sizeByWhListed",
+                        "cors",
+                        "regionSquare",
+                        "sizeByDistortedWh",
+                        "canonicalLinkHeader",
+                        "sizeByConfinedWh",
+                        "sizeByPct",
+                        "jsonldMediaType",
+                        "regionByPct",
+                        "rotationArbitrary",
+                        "sizeByH",
+                        "baseUriRedirect",
+                        "rotationBy90s",
+                        "profileLinkHeader",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "mirroring"
+                      ]
+                    }
+                  ],
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1804,
+                  "height": 2900,
+                  "sizes": [
+                    {
+                      "width": 637,
+                      "height": 1024
+                    },
+                    {
+                      "width": 249,
+                      "height": 400
+                    },
+                    {
+                      "width": 124,
+                      "height": 200
+                    },
+                    {
+                      "width": 62,
+                      "height": 100
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "height": 512,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "id": "https://iiif.wellcomecollection.org/image/b22292196_0006.jp2",
+                  "type": "ImageService2"
+                }
+              }
+            }
+          ]
         },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628282.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1808,
-          "width" : 2524
-        }
-      } ]
-    }, {
-      "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/f62863f5-2c29-4702-af5e-f6bee33619c0",
-      "@type" : "sc:Canvas",
-      "height" : 2560,
-      "width" : 1812,
-      "label" : "icon628281",
-      "images" : [ {
-        "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/9e92348b-87f7-47de-93e3-c9c6201256d6",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/f62863f5-2c29-4702-af5e-f6bee33619c0",
-            "type" : "Canvas"
-          }
+        {
+          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/398ed9c1-2680-47e4-8d58-3dc2f88cc918",
+          "@type": "sc:Canvas",
+          "height": 2974,
+          "width": 1820,
+          "label": "Untitled canvas",
+          "images": [
+            {
+              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/d81c6b6e-0ade-4622-bdfe-4a010d6afa74",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/398ed9c1-2680-47e4-8d58-3dc2f88cc918",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://iiif.wellcomecollection.org/image/b22292196_0007.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2974,
+                "width": 1820,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wellcomecollection.org/image/b22292196_0007.jp2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "tif",
+                        "jpg",
+                        "gif",
+                        "png"
+                      ],
+                      "qualities": [
+                        "bitonal",
+                        "default",
+                        "gray",
+                        "color"
+                      ],
+                      "supports": [
+                        "regionByPx",
+                        "sizeByW",
+                        "sizeByWhListed",
+                        "cors",
+                        "regionSquare",
+                        "sizeByDistortedWh",
+                        "canonicalLinkHeader",
+                        "sizeByConfinedWh",
+                        "sizeByPct",
+                        "jsonldMediaType",
+                        "regionByPct",
+                        "rotationArbitrary",
+                        "sizeByH",
+                        "baseUriRedirect",
+                        "rotationBy90s",
+                        "profileLinkHeader",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "mirroring"
+                      ]
+                    }
+                  ],
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1820,
+                  "height": 2974,
+                  "sizes": [
+                    {
+                      "width": 627,
+                      "height": 1024
+                    },
+                    {
+                      "width": 245,
+                      "height": 400
+                    },
+                    {
+                      "width": 122,
+                      "height": 200
+                    },
+                    {
+                      "width": 61,
+                      "height": 100
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "height": 512,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "id": "https://iiif.wellcomecollection.org/image/b22292196_0007.jp2",
+                  "type": "ImageService2"
+                }
+              }
+            }
+          ]
         },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628281.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 2560,
-          "width" : 1812
-        }
-      } ]
-    }, {
-      "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/05c85c28-565e-4f18-bd23-6f9c5c284d3e",
-      "@type" : "sc:Canvas",
-      "height" : 1806,
-      "width" : 2508,
-      "label" : "icon628287",
-      "images" : [ {
-        "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/6f2455df-17e0-4e4e-8b96-275eb9057b0a",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/05c85c28-565e-4f18-bd23-6f9c5c284d3e",
-            "type" : "Canvas"
-          }
+        {
+          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c4e7367c-1232-4f88-83d5-6aeacc27300f",
+          "@type": "sc:Canvas",
+          "height": 2900,
+          "width": 1804,
+          "label": "Untitled canvas",
+          "images": [
+            {
+              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/bb794833-4e1c-4119-827e-dc27ecd40fc2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c4e7367c-1232-4f88-83d5-6aeacc27300f",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://iiif.wellcomecollection.org/image/b22292196_0008.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2900,
+                "width": 1804,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wellcomecollection.org/image/b22292196_0008.jp2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "jpg",
+                        "tif",
+                        "gif",
+                        "png"
+                      ],
+                      "qualities": [
+                        "bitonal",
+                        "default",
+                        "gray",
+                        "color"
+                      ],
+                      "supports": [
+                        "regionByPx",
+                        "sizeByW",
+                        "sizeByWhListed",
+                        "cors",
+                        "regionSquare",
+                        "sizeByDistortedWh",
+                        "canonicalLinkHeader",
+                        "sizeByConfinedWh",
+                        "sizeByPct",
+                        "jsonldMediaType",
+                        "regionByPct",
+                        "rotationArbitrary",
+                        "sizeByH",
+                        "baseUriRedirect",
+                        "rotationBy90s",
+                        "profileLinkHeader",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "mirroring"
+                      ]
+                    }
+                  ],
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1804,
+                  "height": 2900,
+                  "sizes": [
+                    {
+                      "width": 637,
+                      "height": 1024
+                    },
+                    {
+                      "width": 249,
+                      "height": 400
+                    },
+                    {
+                      "width": 124,
+                      "height": 200
+                    },
+                    {
+                      "width": 62,
+                      "height": 100
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "height": 512,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "id": "https://iiif.wellcomecollection.org/image/b22292196_0008.jp2",
+                  "type": "ImageService2"
+                }
+              }
+            }
+          ]
         },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628287.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1806,
-          "width" : 2508
-        }
-      } ]
-    }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/e803cbe8-7128-4d94-a519-9da075bef507",
-      "@type" : "sc:Canvas",
-      "height" : 1851,
-      "width" : 2580,
-      "label" : "icon628286",
-      "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/f8ece712-4ba6-4dbc-abb0-2913246028e4",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/e803cbe8-7128-4d94-a519-9da075bef507",
-            "type" : "Canvas"
-          }
+        {
+          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/4f040e84-7ef4-40f4-b242-5757cfbc8a21",
+          "@type": "sc:Canvas",
+          "height": 2974,
+          "width": 1820,
+          "label": "Untitled canvas",
+          "images": [
+            {
+              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/05e909b4-1ebc-4238-9d4e-ce471f9fdc31",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/4f040e84-7ef4-40f4-b242-5757cfbc8a21",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://iiif.wellcomecollection.org/image/b22292196_0009.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2974,
+                "width": 1820,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wellcomecollection.org/image/b22292196_0009.jp2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "tif",
+                        "jpg",
+                        "gif",
+                        "png"
+                      ],
+                      "qualities": [
+                        "bitonal",
+                        "default",
+                        "gray",
+                        "color"
+                      ],
+                      "supports": [
+                        "regionByPx",
+                        "sizeByW",
+                        "sizeByWhListed",
+                        "cors",
+                        "regionSquare",
+                        "sizeByDistortedWh",
+                        "canonicalLinkHeader",
+                        "sizeByConfinedWh",
+                        "sizeByPct",
+                        "jsonldMediaType",
+                        "regionByPct",
+                        "rotationArbitrary",
+                        "sizeByH",
+                        "baseUriRedirect",
+                        "rotationBy90s",
+                        "profileLinkHeader",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "mirroring"
+                      ]
+                    }
+                  ],
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1820,
+                  "height": 2974,
+                  "sizes": [
+                    {
+                      "width": 627,
+                      "height": 1024
+                    },
+                    {
+                      "width": 245,
+                      "height": 400
+                    },
+                    {
+                      "width": 122,
+                      "height": 200
+                    },
+                    {
+                      "width": 61,
+                      "height": 100
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "height": 512,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "id": "https://iiif.wellcomecollection.org/image/b22292196_0009.jp2",
+                  "type": "ImageService2"
+                }
+              }
+            }
+          ]
         },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628286.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1851,
-          "width" : 2580
+        {
+          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/cae23406-b03b-4a2c-99d6-145197fbfa3e",
+          "@type": "sc:Canvas",
+          "height": 2900,
+          "width": 1804,
+          "label": "Untitled canvas",
+          "images": [
+            {
+              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/f4b45b16-9076-4c40-98ed-cb7a77ee7f3d",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/cae23406-b03b-4a2c-99d6-145197fbfa3e",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://iiif.wellcomecollection.org/image/b22292196_0010.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2900,
+                "width": 1804,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wellcomecollection.org/image/b22292196_0010.jp2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "jpg",
+                        "tif",
+                        "gif",
+                        "png"
+                      ],
+                      "qualities": [
+                        "bitonal",
+                        "default",
+                        "gray",
+                        "color"
+                      ],
+                      "supports": [
+                        "regionByPx",
+                        "sizeByW",
+                        "sizeByWhListed",
+                        "cors",
+                        "regionSquare",
+                        "sizeByDistortedWh",
+                        "canonicalLinkHeader",
+                        "sizeByConfinedWh",
+                        "sizeByPct",
+                        "jsonldMediaType",
+                        "regionByPct",
+                        "rotationArbitrary",
+                        "sizeByH",
+                        "baseUriRedirect",
+                        "rotationBy90s",
+                        "profileLinkHeader",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "mirroring"
+                      ]
+                    }
+                  ],
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1804,
+                  "height": 2900,
+                  "sizes": [
+                    {
+                      "width": 637,
+                      "height": 1024
+                    },
+                    {
+                      "width": 249,
+                      "height": 400
+                    },
+                    {
+                      "width": 124,
+                      "height": 200
+                    },
+                    {
+                      "width": 62,
+                      "height": 100
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 512,
+                      "height": 512,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "id": "https://iiif.wellcomecollection.org/image/b22292196_0010.jp2",
+                  "type": "ImageService2"
+                }
+              }
+            }
+          ]
         }
-      } ]
-    }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/baef9f83-73e3-4ee4-9414-96963a356035",
-      "@type" : "sc:Canvas",
-      "height" : 1830,
-      "width" : 2577,
-      "label" : "icon628284",
-      "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/858b6311-9855-4037-8a52-d72e9b955cb1",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/baef9f83-73e3-4ee4-9414-96963a356035",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628284.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1830,
-          "width" : 2577
-        }
-      } ]
-    }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3de501b3-dfa6-411e-a003-a79c13d4c8ba",
-      "@type" : "sc:Canvas",
-      "height" : 1863,
-      "width" : 2564,
-      "label" : "icon628283",
-      "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/fd3750aa-c414-47c2-a880-5deaf29297f5",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/3de501b3-dfa6-411e-a003-a79c13d4c8ba",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628283.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1863,
-          "width" : 2564
-        }
-      } ]
-    }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/13f1d555-ab64-4988-8097-aad35f002ecc",
-      "@type" : "sc:Canvas",
-      "height" : 1844,
-      "width" : 2584,
-      "label" : "icon628276",
-      "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/0ef1b46a-7e5f-4f6c-af58-6c673b328594",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/13f1d555-ab64-4988-8097-aad35f002ecc",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628276.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1844,
-          "width" : 2584
-        }
-      } ]
-    }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/cd732e2a-dd88-4ad4-ab4d-b5b6d1949837",
-      "@type" : "sc:Canvas",
-      "height" : 2537,
-      "width" : 1795,
-      "label" : "icon628277",
-      "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/f576bdba-df4a-407f-a082-c1f9636a2617",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/cd732e2a-dd88-4ad4-ab4d-b5b6d1949837",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628277.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 2537,
-          "width" : 1795
-        }
-      } ]
-    }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/2caa9dd4-7d75-466f-8f80-4fc6cc113180",
-      "@type" : "sc:Canvas",
-      "height" : 2536,
-      "width" : 1819,
-      "label" : "icon628278",
-      "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/78279b0b-8b33-40fe-8ea2-5d218a897542",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/2caa9dd4-7d75-466f-8f80-4fc6cc113180",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628278.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 2536,
-          "width" : 1819
-        }
-      } ]
-    }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/64db2a81-1f59-4627-bd43-f601c9561c48",
-      "@type" : "sc:Canvas",
-      "height" : 2552,
-      "width" : 1875,
-      "label" : "icon628280",
-      "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/2fa40b8c-c3e1-42ab-bb9b-b0e4566e4c8d",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/64db2a81-1f59-4627-bd43-f601c9561c48",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon628280.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 2552,
-          "width" : 1875
-        }
-      } ]
-    }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/453052f2-bb23-4a34-b20b-20cd5fa24b11",
-      "@type" : "sc:Canvas",
-      "height" : 1458,
-      "width" : 3216,
-      "label" : "icon634341",
-      "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/40eddc1d-574a-4256-9347-b7cf99a46d9e",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : {
-          "type" : "SpecificResource",
-          "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/453052f2-bb23-4a34-b20b-20cd5fa24b11",
-            "type" : "Canvas"
-          }
-        },
-        "resource" : {
-          "@id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon628288c/icon634341.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 1458,
-          "width" : 3216
-        }
-      } ]
-    } ]
-  } ],
-  "structures" : [ ]
+      ]
+    }
+  ],
+  "structures": []
 }
