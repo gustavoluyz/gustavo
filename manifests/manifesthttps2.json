@@ -1,28 +1,28 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b",
+  "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b",
   "@type": "sc:Manifest",
   "label": "Blank Manifest",
   "sequences": [
     {
-      "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/sequence0",
+      "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/sequence0",
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/aed970ad-0e60-42c7-b117-ba13f1215913",
+          "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/aed970ad-0e60-42c7-b117-ba13f1215913",
           "@type": "sc:Canvas",
           "height": 2974,
           "width": 1820,
           "label": "Untitled canvas",
           "images": [
             {
-              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/c33b943e-8999-42e8-8950-b79e2c9143fa",
+              "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/c33b943e-8999-42e8-8950-b79e2c9143fa",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/aed970ad-0e60-42c7-b117-ba13f1215913",
+                  "id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/aed970ad-0e60-42c7-b117-ba13f1215913",
                   "type": "Canvas"
                 }
               },
@@ -115,20 +115,20 @@
           ]
         },
         {
-          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/6d9097bf-b74e-4296-b4f2-08a311ddc950",
+          "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/6d9097bf-b74e-4296-b4f2-08a311ddc950",
           "@type": "sc:Canvas",
           "height": 2900,
           "width": 1804,
           "label": "Untitled canvas",
           "images": [
             {
-              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/66caa7d9-b6f5-4627-8b05-b9dd7429412e",
+              "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/66caa7d9-b6f5-4627-8b05-b9dd7429412e",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/6d9097bf-b74e-4296-b4f2-08a311ddc950",
+                  "id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/6d9097bf-b74e-4296-b4f2-08a311ddc950",
                   "type": "Canvas"
                 }
               },
@@ -221,20 +221,20 @@
           ]
         },
         {
-          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/f781ea23-d2b7-4298-9a51-508a452b60ea",
+          "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/f781ea23-d2b7-4298-9a51-508a452b60ea",
           "@type": "sc:Canvas",
           "height": 2974,
           "width": 1820,
           "label": "Untitled canvas",
           "images": [
             {
-              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/7c5427f5-e7c5-4274-9e6c-9cb49097d6d9",
+              "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/7c5427f5-e7c5-4274-9e6c-9cb49097d6d9",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/f781ea23-d2b7-4298-9a51-508a452b60ea",
+                  "id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/f781ea23-d2b7-4298-9a51-508a452b60ea",
                   "type": "Canvas"
                 }
               },
@@ -327,20 +327,20 @@
           ]
         },
         {
-          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c9067269-5ae1-4642-89f6-c95dd4c90760",
+          "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c9067269-5ae1-4642-89f6-c95dd4c90760",
           "@type": "sc:Canvas",
           "height": 2900,
           "width": 1804,
           "label": "Untitled canvas",
           "images": [
             {
-              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/f51a7ff7-fb46-4296-830b-96364bf52d9b",
+              "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/f51a7ff7-fb46-4296-830b-96364bf52d9b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c9067269-5ae1-4642-89f6-c95dd4c90760",
+                  "id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c9067269-5ae1-4642-89f6-c95dd4c90760",
                   "type": "Canvas"
                 }
               },
@@ -433,20 +433,20 @@
           ]
         },
         {
-          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/398ed9c1-2680-47e4-8d58-3dc2f88cc918",
+          "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/398ed9c1-2680-47e4-8d58-3dc2f88cc918",
           "@type": "sc:Canvas",
           "height": 2974,
           "width": 1820,
           "label": "Untitled canvas",
           "images": [
             {
-              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/d81c6b6e-0ade-4622-bdfe-4a010d6afa74",
+              "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/d81c6b6e-0ade-4622-bdfe-4a010d6afa74",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/398ed9c1-2680-47e4-8d58-3dc2f88cc918",
+                  "id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/398ed9c1-2680-47e4-8d58-3dc2f88cc918",
                   "type": "Canvas"
                 }
               },
@@ -539,20 +539,20 @@
           ]
         },
         {
-          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c4e7367c-1232-4f88-83d5-6aeacc27300f",
+          "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c4e7367c-1232-4f88-83d5-6aeacc27300f",
           "@type": "sc:Canvas",
           "height": 2900,
           "width": 1804,
           "label": "Untitled canvas",
           "images": [
             {
-              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/bb794833-4e1c-4119-827e-dc27ecd40fc2",
+              "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/bb794833-4e1c-4119-827e-dc27ecd40fc2",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c4e7367c-1232-4f88-83d5-6aeacc27300f",
+                  "id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/c4e7367c-1232-4f88-83d5-6aeacc27300f",
                   "type": "Canvas"
                 }
               },
@@ -645,20 +645,20 @@
           ]
         },
         {
-          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/4f040e84-7ef4-40f4-b242-5757cfbc8a21",
+          "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/4f040e84-7ef4-40f4-b242-5757cfbc8a21",
           "@type": "sc:Canvas",
           "height": 2974,
           "width": 1820,
           "label": "Untitled canvas",
           "images": [
             {
-              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/05e909b4-1ebc-4238-9d4e-ce471f9fdc31",
+              "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/05e909b4-1ebc-4238-9d4e-ce471f9fdc31",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/4f040e84-7ef4-40f4-b242-5757cfbc8a21",
+                  "id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/4f040e84-7ef4-40f4-b242-5757cfbc8a21",
                   "type": "Canvas"
                 }
               },
@@ -751,20 +751,20 @@
           ]
         },
         {
-          "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/cae23406-b03b-4a2c-99d6-145197fbfa3e",
+          "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/cae23406-b03b-4a2c-99d6-145197fbfa3e",
           "@type": "sc:Canvas",
           "height": 2900,
           "width": 1804,
           "label": "Untitled canvas",
           "images": [
             {
-              "@id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/f4b45b16-9076-4c40-98ed-cb7a77ee7f3d",
+              "@id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/annotation/f4b45b16-9076-4c40-98ed-cb7a77ee7f3d",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://example.org/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/cae23406-b03b-4a2c-99d6-145197fbfa3e",
+                  "id": "https://bndigital.bn.gov.br/709f5f7b-dd3a-4b41-a0d9-ba7c61eb818b/canvas/cae23406-b03b-4a2c-99d6-145197fbfa3e",
                   "type": "Canvas"
                 }
               },
