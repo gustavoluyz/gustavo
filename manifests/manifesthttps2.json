@@ -57,19 +57,19 @@
         }
       } ]
     }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/a4c7d96a-e59c-4e84-a832-b545b62bb986",
+      "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/a4c7d96a-e59c-4e84-a832-b545b62bb986",
       "@type" : "sc:Canvas",
       "height" : 1827,
       "width" : 2568,
       "label" : "icon628279",
       "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/51cc3e42-0e6d-4b3d-8012-1d0040df82d3",
+        "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/51cc3e42-0e6d-4b3d-8012-1d0040df82d3",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "on" : {
           "type" : "SpecificResource",
           "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/a4c7d96a-e59c-4e84-a832-b545b62bb986",
+            "id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/a4c7d96a-e59c-4e84-a832-b545b62bb986",
             "type" : "Canvas"
           }
         },
@@ -82,19 +82,19 @@
         }
       } ]
     }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/09c5439a-8f27-4773-862d-edd5e0d37c0f",
+      "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/09c5439a-8f27-4773-862d-edd5e0d37c0f",
       "@type" : "sc:Canvas",
       "height" : 1808,
       "width" : 2524,
       "label" : "icon628282",
       "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/1b36bdaf-3f27-4b42-9dc6-0cd6c4e81615",
+        "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/1b36bdaf-3f27-4b42-9dc6-0cd6c4e81615",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "on" : {
           "type" : "SpecificResource",
           "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/09c5439a-8f27-4773-862d-edd5e0d37c0f",
+            "id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/09c5439a-8f27-4773-862d-edd5e0d37c0f",
             "type" : "Canvas"
           }
         },
@@ -107,19 +107,19 @@
         }
       } ]
     }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/f62863f5-2c29-4702-af5e-f6bee33619c0",
+      "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/f62863f5-2c29-4702-af5e-f6bee33619c0",
       "@type" : "sc:Canvas",
       "height" : 2560,
       "width" : 1812,
       "label" : "icon628281",
       "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/9e92348b-87f7-47de-93e3-c9c6201256d6",
+        "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/9e92348b-87f7-47de-93e3-c9c6201256d6",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "on" : {
           "type" : "SpecificResource",
           "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/f62863f5-2c29-4702-af5e-f6bee33619c0",
+            "id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/f62863f5-2c29-4702-af5e-f6bee33619c0",
             "type" : "Canvas"
           }
         },
@@ -132,19 +132,19 @@
         }
       } ]
     }, {
-      "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/05c85c28-565e-4f18-bd23-6f9c5c284d3e",
+      "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/05c85c28-565e-4f18-bd23-6f9c5c284d3e",
       "@type" : "sc:Canvas",
       "height" : 1806,
       "width" : 2508,
       "label" : "icon628287",
       "images" : [ {
-        "@id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/6f2455df-17e0-4e4e-8b96-275eb9057b0a",
+        "@id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/annotation/6f2455df-17e0-4e4e-8b96-275eb9057b0a",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "on" : {
           "type" : "SpecificResource",
           "source" : {
-            "id" : "https://example.org/9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/05c85c28-565e-4f18-bd23-6f9c5c284d3e",
+            "id" : "https://9b05b9f8-0148-4d5d-87fa-0c64a2f95c9c/canvas/05c85c28-565e-4f18-bd23-6f9c5c284d3e",
             "type" : "Canvas"
           }
         },
