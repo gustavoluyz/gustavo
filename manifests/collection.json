@@ -53,5 +53,9 @@
       "en" : [ "Blank Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest30.json",
+    "label" : "Blank Manifest"
   } ]
 }
