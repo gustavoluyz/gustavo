@@ -1,0 +1,76 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest200.json",
+  "@type" : "sc:Manifest",
+  "label" : "Blank Manifest",
+  "metadata" : [ {
+    "label" : "",
+    "value" : ""
+  } ],
+  "sequences" : [ {
+    "@id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/sequence0",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/2fc7cfcb-a697-484e-b3d0-f82d1d1a3f33",
+      "@type" : "sc:Canvas",
+      "height" : 4667,
+      "width" : 3413,
+      "label" : "Untitled canvas",
+      "images" : [ {
+        "@id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/5cb76fa2-e273-4412-9cb2-fe80610e1c39",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/2fc7cfcb-a697-484e-b3d0-f82d1d1a3f33",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/periodicos_image.tif/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 4667,
+          "width" : 3413,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/periodicos_image.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3413,
+            "height" : 4667,
+            "sizes" : [ {
+              "width" : 107,
+              "height" : 146
+            }, {
+              "width" : 213,
+              "height" : 292
+            }, {
+              "width" : 427,
+              "height" : 583
+            }, {
+              "width" : 853,
+              "height" : 1167
+            }, {
+              "width" : 1707,
+              "height" : 2334
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/periodicos_image.tif"
+          }
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
