@@ -1,0 +1,46 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://gustavoluyz.github.io/gustavo/manifests/cart525986.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "cart525986" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "[Carta relativa aos limites entre o Império do Brasil e a Guiana Francesa] [Cartográfico]" ]
+    },
+    "value" : {
+      "en" : [ "C.E. H.B . [Catálogo de Exposição de História do Brasil] nº 1583. Apresenta a seguinte referênca: \"Primeira e Segunda Hypoteses. Duas cartas relativas aos limites entre Imperio do Brazil e a Guyana Franceza\"" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "[Carta relativa aos limites entre o Império do Brasil e a Guiana Francesa] [Cartográfico]" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/e3a4aa09-d418-4c92-997c-b4538967a1c5/canvas/570c792e-679d-489d-bdab-d6018415e27c",
+    "type" : "Canvas",
+    "height" : 4320,
+    "width" : 4800,
+    "label" : {
+      "en" : [ "cart525986" ]
+    },
+    "rights" : "https://bndigital.bn.gov.br/acervodigital",
+    "items" : [ {
+      "id" : "https://example.org/e3a4aa09-d418-4c92-997c-b4538967a1c5/canvas/570c792e-679d-489d-bdab-d6018415e27c/annotation-page/898586ba-6e01-4603-a643-5b49a00a025b",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e3a4aa09-d418-4c92-997c-b4538967a1c5/annotation/b915bc48-c515-4357-9db5-dfb1e90ee750",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e3a4aa09-d418-4c92-997c-b4538967a1c5/canvas/570c792e-679d-489d-bdab-d6018415e27c",
+        "body" : {
+          "id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart525986/cart525986.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4320,
+          "width" : 4800
+        }
+      } ]
+    } ]
+  } ]
+}
