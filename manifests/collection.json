@@ -61,5 +61,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://gustavoluyz.github.io/gustavo/manifests/manifest200.json",
     "label" : "Blank Manifest"
+  }, {
+    "id" : "https://gustavoluyz.github.io/gustavo/manifests/manifestpre3.json",
+    "label" : {
+      "en" : [ "cart326132" ]
+    },
+    "type" : "Manifest"
   } ]
 }
