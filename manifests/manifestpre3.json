@@ -1,0 +1,252 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://gustavoluyz.github.io/gustavo/manifests/manifestpre3.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "cart326132" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "cart1389372" ]
+    },
+    "value" : {
+      "en" : [ "" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/14267c9e-b1f1-4443-809e-211ef6cd452f",
+    "type" : "Canvas",
+    "height" : 4224,
+    "width" : 5534,
+    "label" : {
+      "en" : [ "cart1389372" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/14267c9e-b1f1-4443-809e-211ef6cd452f/annotation-page/4775d0dd-4a47-41d3-9b91-886b9fc6488b",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/7b08ce81-f0de-41b9-930a-86e25775dc1a",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/14267c9e-b1f1-4443-809e-211ef6cd452f",
+        "body" : {
+          "id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart1389372/cart1389372.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4224,
+          "width" : 5534
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/7dd9344c-e809-4874-bf3a-d38e2ce71cc5",
+    "type" : "Canvas",
+    "height" : 4320,
+    "width" : 4800,
+    "label" : {
+      "en" : [ "cart525986" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/7dd9344c-e809-4874-bf3a-d38e2ce71cc5/annotation-page/7967f78e-59c3-481c-bf3a-8f992a98188d",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/1d4ea8c8-1371-4683-8734-a94738be9517",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/7dd9344c-e809-4874-bf3a-d38e2ce71cc5",
+        "body" : {
+          "id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart525986/cart525986.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4320,
+          "width" : 4800
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/b8c34070-e4fe-4124-981e-672a512dc9ba",
+    "type" : "Canvas",
+    "height" : 4464,
+    "width" : 3387,
+    "label" : {
+      "en" : [ "cart326132" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/b8c34070-e4fe-4124-981e-672a512dc9ba/annotation-page/bf7224c4-2bcb-4e6e-ba8a-48785d4a3a5c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/831d2b73-082e-4455-85be-4c9122ee1db6",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/b8c34070-e4fe-4124-981e-672a512dc9ba",
+        "body" : {
+          "id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart326132/cart326132.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4464,
+          "width" : 3387
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/ab5611a4-6286-4117-8193-0d581613726c",
+    "type" : "Canvas",
+    "height" : 2673,
+    "width" : 4032,
+    "label" : {
+      "en" : [ "cart526282" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/ab5611a4-6286-4117-8193-0d581613726c/annotation-page/bffff4db-5521-4072-8e02-f73794b194af",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/26863d5e-ce38-4427-8e22-5463d645d35c",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/ab5611a4-6286-4117-8193-0d581613726c",
+        "body" : {
+          "id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart526282/cart526282.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2673,
+          "width" : 4032
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/422914e1-b672-4819-8392-1991ee77e65e",
+    "type" : "Canvas",
+    "height" : 1502,
+    "width" : 3472,
+    "label" : {
+      "en" : [ "cart511673" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/422914e1-b672-4819-8392-1991ee77e65e/annotation-page/7705f13e-140c-4902-9e71-9a7b8c5e0803",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/bb0330c7-e2ac-4ee0-bf9c-f42542993ccc",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/422914e1-b672-4819-8392-1991ee77e65e",
+        "body" : {
+          "id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart511673/cart511673.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1502,
+          "width" : 3472
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/ba15d49c-3e99-4ed3-bf51-7040a81da4bf",
+    "type" : "Canvas",
+    "height" : 4410,
+    "width" : 3371,
+    "label" : {
+      "en" : [ "cart1409602" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/ba15d49c-3e99-4ed3-bf51-7040a81da4bf/annotation-page/e6e7a237-4bc1-442b-bd40-f435e7aa2822",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/f4056287-a5c3-4c60-872e-6ce14d464b9d",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/ba15d49c-3e99-4ed3-bf51-7040a81da4bf",
+        "body" : {
+          "id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart1409602/cart1409602.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4410,
+          "width" : 3371
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/30f4707b-049c-492f-8a81-7c23f30a2c4d",
+    "type" : "Canvas",
+    "height" : 2768,
+    "width" : 3710,
+    "label" : {
+      "en" : [ "cart313884" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/30f4707b-049c-492f-8a81-7c23f30a2c4d/annotation-page/094f5635-492e-4da6-9857-051b9ea1d68b",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/57dbf5e4-5c3c-4259-a461-67660f2cb32f",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/30f4707b-049c-492f-8a81-7c23f30a2c4d",
+        "body" : {
+          "id" : "https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart313884/cart313884.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2768,
+          "width" : 3710
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/182f9fd1-bb74-44c2-bf02-b047f87e8c3a",
+    "type" : "Canvas",
+    "height" : 7076,
+    "width" : 8560,
+    "label" : {
+      "en" : [ "cart162972" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/182f9fd1-bb74-44c2-bf02-b047f87e8c3a/annotation-page/6767fd2e-c548-48f7-aaa0-11009c34a4e6",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/annotation/d94c1904-dce3-47b7-87da-204330df90a6",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e2ea5b72-1d4d-4918-bf76-51bf4e783198/canvas/182f9fd1-bb74-44c2-bf02-b047f87e8c3a",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/cartografia_cart162972pir.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 7076,
+          "width" : 8560,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/cartografia_cart162972pir.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 8560,
+            "height" : 7076,
+            "sizes" : [ {
+              "width" : 134,
+              "height" : 111
+            }, {
+              "width" : 268,
+              "height" : 221
+            }, {
+              "width" : 535,
+              "height" : 442
+            }, {
+              "width" : 1070,
+              "height" : 885
+            }, {
+              "width" : 2140,
+              "height" : 1769
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/cartografia_cart162972pir.tif"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
