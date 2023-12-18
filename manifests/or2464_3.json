@@ -1,0 +1,1015 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://gustavoluyz.github.io/gustavo/manifests/or2464_3.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Biblioteca Nacional Digital" ]
+  },
+  "rights" : "Biblioteca Nacional Digital",
+  "items" : [ {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/7ca0156c-78e9-4b3f-a676-3aa63a51123f",
+    "type" : "Canvas",
+    "height" : 1460,
+    "width" : 1054,
+    "label" : {
+      "en" : [ "or2464c" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464c.tif/full/100,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 138,
+      "width" : 100
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/7ca0156c-78e9-4b3f-a676-3aa63a51123f/annotation-page/3618b2c1-c5e3-4755-841f-7b159de1591b",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/4c6fc36a-af74-4e47-a576-4febd83f9456",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/7ca0156c-78e9-4b3f-a676-3aa63a51123f",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464c.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1460,
+          "width" : 1054,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464c.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1054,
+            "height" : 1460,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 132,
+              "height" : 183
+            }, {
+              "width" : 264,
+              "height" : 365
+            }, {
+              "width" : 527,
+              "height" : 730
+            }, {
+              "width" : 1054,
+              "height" : 1460
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1538840,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464c.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/b87581cc-f1fa-4e47-a142-62b153b2588a",
+    "type" : "Canvas",
+    "height" : 1468,
+    "width" : 1061,
+    "label" : {
+      "en" : [ "or2464fo1" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo1.tif/full/100,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 139,
+      "width" : 100
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/b87581cc-f1fa-4e47-a142-62b153b2588a/annotation-page/e479a9d2-1ccf-456a-80b4-3c0f29bf510e",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/1012e63e-eda1-451b-b732-1e008dd78c28",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/b87581cc-f1fa-4e47-a142-62b153b2588a",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo1.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1468,
+          "width" : 1061,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo1.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1061,
+            "height" : 1468,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 92
+            }, {
+              "width" : 133,
+              "height" : 184
+            }, {
+              "width" : 265,
+              "height" : 367
+            }, {
+              "width" : 531,
+              "height" : 734
+            }, {
+              "width" : 1061,
+              "height" : 1468
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1557548,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo1.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/243f43e8-69b1-4093-a503-a526f07f10ca",
+    "type" : "Canvas",
+    "height" : 1456,
+    "width" : 1059,
+    "label" : {
+      "en" : [ "or2464fo3" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo4.tif/full/100,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 137,
+      "width" : 100
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/243f43e8-69b1-4093-a503-a526f07f10ca/annotation-page/22392204-9357-4d2b-af2d-6eb071ddc568",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/e8fb31d7-6c1b-484c-b04c-195cdcb61107",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/243f43e8-69b1-4093-a503-a526f07f10ca",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo3.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1456,
+          "width" : 1059,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo3.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1059,
+            "height" : 1456,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 132,
+              "height" : 182
+            }, {
+              "width" : 265,
+              "height" : 364
+            }, {
+              "width" : 530,
+              "height" : 728
+            }, {
+              "width" : 1059,
+              "height" : 1456
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1541904,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo3.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/8812f231-ff84-4101-9e3f-9fa0473ff153",
+    "type" : "Canvas",
+    "height" : 1461,
+    "width" : 1068,
+    "label" : {
+      "en" : [ "or2464fo4" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo4.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 103,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/8812f231-ff84-4101-9e3f-9fa0473ff153/annotation-page/adda4b4c-8b0c-4a69-a9eb-00f7a05d87dc",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/efd9ee15-f19a-4fbc-b5fc-979f6534d811",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/8812f231-ff84-4101-9e3f-9fa0473ff153",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo4.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1461,
+          "width" : 1068,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo4.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1068,
+            "height" : 1461,
+            "sizes" : [ {
+              "width" : 67,
+              "height" : 91
+            }, {
+              "width" : 134,
+              "height" : 183
+            }, {
+              "width" : 267,
+              "height" : 365
+            }, {
+              "width" : 534,
+              "height" : 731
+            }, {
+              "width" : 1068,
+              "height" : 1461
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1560348,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo4.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/a2d63506-1ecf-404f-9907-6c01a29eafb2",
+    "type" : "Canvas",
+    "height" : 1456,
+    "width" : 1057,
+    "label" : {
+      "en" : [ "or2464fo5" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo4.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 103,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/a2d63506-1ecf-404f-9907-6c01a29eafb2/annotation-page/6ad8d6ff-81a0-4ec8-899b-fa3596eb2356",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/7561f448-c5ac-4fbc-984b-1894511ad037",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/a2d63506-1ecf-404f-9907-6c01a29eafb2",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo5.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1456,
+          "width" : 1057,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo5.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1057,
+            "height" : 1456,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 132,
+              "height" : 182
+            }, {
+              "width" : 264,
+              "height" : 364
+            }, {
+              "width" : 529,
+              "height" : 728
+            }, {
+              "width" : 1057,
+              "height" : 1456
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1538992,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo5.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/4249f701-d830-4847-af07-a2bbe9932c5d",
+    "type" : "Canvas",
+    "height" : 1456,
+    "width" : 1055,
+    "label" : {
+      "en" : [ "or2464fo7" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo7.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 104,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/4249f701-d830-4847-af07-a2bbe9932c5d/annotation-page/d897327e-0578-4856-8f14-765c824687c7",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/6ddd4aa4-c956-4ac2-909d-ebddf67a2dcc",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/4249f701-d830-4847-af07-a2bbe9932c5d",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo7.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1456,
+          "width" : 1055,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo7.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1055,
+            "height" : 1456,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 132,
+              "height" : 182
+            }, {
+              "width" : 264,
+              "height" : 364
+            }, {
+              "width" : 528,
+              "height" : 728
+            }, {
+              "width" : 1055,
+              "height" : 1456
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1536080,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo7.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/f8e65cb3-1198-4786-b7b3-60a98bdcb8e9",
+    "type" : "Canvas",
+    "height" : 1456,
+    "width" : 1071,
+    "label" : {
+      "en" : [ "or2464fo8" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo8.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 102,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/f8e65cb3-1198-4786-b7b3-60a98bdcb8e9/annotation-page/059e6591-9193-4cd9-ac6e-adcce6e790ed",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/1c03c417-fafe-4b52-ade1-2f0fcd3bccfa",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/f8e65cb3-1198-4786-b7b3-60a98bdcb8e9",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo8.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1456,
+          "width" : 1071,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo8.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1071,
+            "height" : 1456,
+            "sizes" : [ {
+              "width" : 67,
+              "height" : 91
+            }, {
+              "width" : 134,
+              "height" : 182
+            }, {
+              "width" : 268,
+              "height" : 364
+            }, {
+              "width" : 536,
+              "height" : 728
+            }, {
+              "width" : 1071,
+              "height" : 1456
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1559376,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo8.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/3637d758-ada0-42ce-ac00-a5b0f1a172b3",
+    "type" : "Canvas",
+    "height" : 1456,
+    "width" : 1053,
+    "label" : {
+      "en" : [ "or2464fo9" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo9.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 104,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/3637d758-ada0-42ce-ac00-a5b0f1a172b3/annotation-page/d8e6e714-9f60-47be-9f6e-db1aed332e19",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/2e4272ec-89d1-4f4b-add4-00851b45594a",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/3637d758-ada0-42ce-ac00-a5b0f1a172b3",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo9.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1456,
+          "width" : 1053,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo9.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1053,
+            "height" : 1456,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 132,
+              "height" : 182
+            }, {
+              "width" : 263,
+              "height" : 364
+            }, {
+              "width" : 527,
+              "height" : 728
+            }, {
+              "width" : 1053,
+              "height" : 1456
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1533168,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo9.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/2ba42551-05d1-430b-8461-b32c7dec12b4",
+    "type" : "Canvas",
+    "height" : 1460,
+    "width" : 1065,
+    "label" : {
+      "en" : [ "or2464fo10" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo10.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 103,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/2ba42551-05d1-430b-8461-b32c7dec12b4/annotation-page/8d0cd876-ba2c-45b8-8f7a-d2417d4bbd3a",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/691edf8e-3ca2-4972-ad07-d27bb82b67cd",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/2ba42551-05d1-430b-8461-b32c7dec12b4",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo10.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1460,
+          "width" : 1065,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo10.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1065,
+            "height" : 1460,
+            "sizes" : [ {
+              "width" : 67,
+              "height" : 91
+            }, {
+              "width" : 133,
+              "height" : 183
+            }, {
+              "width" : 266,
+              "height" : 365
+            }, {
+              "width" : 533,
+              "height" : 730
+            }, {
+              "width" : 1065,
+              "height" : 1460
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1554900,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo10.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/832fe6d3-79ee-4fa4-ab19-8c897ff555b7",
+    "type" : "Canvas",
+    "height" : 1456,
+    "width" : 1059,
+    "label" : {
+      "en" : [ "or2464fo11" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo11.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 103,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/832fe6d3-79ee-4fa4-ab19-8c897ff555b7/annotation-page/0676720a-56c4-4475-ae5a-d7622ff9faaf",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/1687f091-6acb-466c-bedd-84f51aa0afa5",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/832fe6d3-79ee-4fa4-ab19-8c897ff555b7",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo11.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1456,
+          "width" : 1059,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo11.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1059,
+            "height" : 1456,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 132,
+              "height" : 182
+            }, {
+              "width" : 265,
+              "height" : 364
+            }, {
+              "width" : 530,
+              "height" : 728
+            }, {
+              "width" : 1059,
+              "height" : 1456
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1541904,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo11.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/e689c42c-c06e-45f1-9de3-20a125160431",
+    "type" : "Canvas",
+    "height" : 1462,
+    "width" : 1066,
+    "label" : {
+      "en" : [ "or2464fo12" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo12.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 103,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/e689c42c-c06e-45f1-9de3-20a125160431/annotation-page/ae8e86b8-9c3f-4023-a478-1a7a4dc6d23c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/3a1f44e5-4a09-41c2-940c-916f5fe444a9",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/e689c42c-c06e-45f1-9de3-20a125160431",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo12.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1462,
+          "width" : 1066,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo12.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1066,
+            "height" : 1462,
+            "sizes" : [ {
+              "width" : 67,
+              "height" : 91
+            }, {
+              "width" : 133,
+              "height" : 183
+            }, {
+              "width" : 267,
+              "height" : 366
+            }, {
+              "width" : 533,
+              "height" : 731
+            }, {
+              "width" : 1066,
+              "height" : 1462
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1558492,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo12.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/e2b74930-c434-4d7c-a9b7-e444179542b7",
+    "type" : "Canvas",
+    "height" : 1454,
+    "width" : 1062,
+    "label" : {
+      "en" : [ "or2464fo13" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo13.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 103,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/e2b74930-c434-4d7c-a9b7-e444179542b7/annotation-page/69bd610f-8c83-496f-b0ad-7c1a77121d70",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/0706be4e-886d-4c0c-aebe-e05a4b6d6cc4",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/e2b74930-c434-4d7c-a9b7-e444179542b7",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo13.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1454,
+          "width" : 1062,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo13.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1062,
+            "height" : 1454,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 133,
+              "height" : 182
+            }, {
+              "width" : 266,
+              "height" : 364
+            }, {
+              "width" : 531,
+              "height" : 727
+            }, {
+              "width" : 1062,
+              "height" : 1454
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1544148,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo13.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/8ff3aae8-2cf5-422f-849d-367829450dc8",
+    "type" : "Canvas",
+    "height" : 1459,
+    "width" : 1068,
+    "label" : {
+      "en" : [ "or2464fo14" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo14.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 103,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/8ff3aae8-2cf5-422f-849d-367829450dc8/annotation-page/4db44158-9b39-4e41-ba31-4d7824ab40e1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/14f4de64-2ca1-4291-bf8d-7c30c1aec062",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/8ff3aae8-2cf5-422f-849d-367829450dc8",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo14.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1459,
+          "width" : 1068,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo14.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1068,
+            "height" : 1459,
+            "sizes" : [ {
+              "width" : 67,
+              "height" : 91
+            }, {
+              "width" : 134,
+              "height" : 182
+            }, {
+              "width" : 267,
+              "height" : 365
+            }, {
+              "width" : 534,
+              "height" : 730
+            }, {
+              "width" : 1068,
+              "height" : 1459
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1558212,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo14.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/b2e343ce-334a-4571-b046-c11910fe24c6",
+    "type" : "Canvas",
+    "height" : 1452,
+    "width" : 1057,
+    "label" : {
+      "en" : [ "or2464fo15" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo15.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 103,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/b2e343ce-334a-4571-b046-c11910fe24c6/annotation-page/53cdbb31-acf0-402e-ac97-a2eae7da2f1d",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/b571e745-9191-4621-be1c-2467df8df51a",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/b2e343ce-334a-4571-b046-c11910fe24c6",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo15.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1452,
+          "width" : 1057,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo15.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1057,
+            "height" : 1452,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 132,
+              "height" : 182
+            }, {
+              "width" : 264,
+              "height" : 363
+            }, {
+              "width" : 529,
+              "height" : 726
+            }, {
+              "width" : 1057,
+              "height" : 1452
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1534764,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464fo15.tif"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/f58a4603-68a2-46cd-a3ec-3658ae35a8c0",
+    "type" : "Canvas",
+    "height" : 1452,
+    "width" : 1049,
+    "label" : {
+      "en" : [ "or2464cc" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464cc.tif/full/75,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 104,
+      "width" : 75
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/f58a4603-68a2-46cd-a3ec-3658ae35a8c0/annotation-page/15cd6ff4-44d3-497b-9a8c-ad082ec6b635",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/annotation/c3f64943-df4a-4a75-8fc5-d8abd7b9ed07",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/b3260511-52c2-40bd-a277-a8944f13f8d7/canvas/f58a4603-68a2-46cd-a3ec-3658ae35a8c0",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464cc.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1452,
+          "width" : 1049,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464cc.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1049,
+            "height" : 1452,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 91
+            }, {
+              "width" : 131,
+              "height" : 182
+            }, {
+              "width" : 262,
+              "height" : 363
+            }, {
+              "width" : 525,
+              "height" : 726
+            }, {
+              "width" : 1049,
+              "height" : 1452
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1523148,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/obrara_or2464cc.tif"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
