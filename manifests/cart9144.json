@@ -1,0 +1,97 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://gustavoluyz.github.io/gustavo/manifests/cart9144.json",
+  "type" : "Manifest",
+  "attribution" : "Biblioteca Nacional Digital",
+  "label" : {
+    "en" : [ "Encarte: America do Sul, político" ]
+  },
+  "logo" : [ {
+    "id" : "https://inova-homolog.bn.gov.br/logos/logobn.png",
+    "type" : "Image",
+    "format" : "image/png",
+    "height" : 348,
+    "width" : 350
+  } ],
+  "seeAlso" : [ {
+    "id" : "http://acervo.bndigital.bn.br/sophia/index.asp?codigo_sophia=97389",
+    "type" : "Dataset",
+    "format" : "",
+    "profile" : "https://schema.org/"
+  } ],
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Cartografia - cart9144" ]
+    },
+    "value" : {
+      "en" : [ "Encarte: America do Sul, político" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "Encarte: America do Sul, político" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/406f6682-fbcf-45b7-8e19-2dbde8c7545b/canvas/88cb99c0-2161-4e75-bdc6-f44772f3954d",
+    "type" : "Canvas",
+    "height" : 10897,
+    "width" : 8407,
+    "label" : {
+      "en" : [ "América do Sul [Cartográfico]" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/406f6682-fbcf-45b7-8e19-2dbde8c7545b/canvas/88cb99c0-2161-4e75-bdc6-f44772f3954d/annotation-page/61298b5e-c020-4c54-95d7-eb0734ca3f2a",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/406f6682-fbcf-45b7-8e19-2dbde8c7545b/annotation/0b22dd09-aed0-4480-8489-99d0ce467192",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/406f6682-fbcf-45b7-8e19-2dbde8c7545b/canvas/88cb99c0-2161-4e75-bdc6-f44772f3954d",
+        "body" : {
+          "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/cartografia_cart9144.tif/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 10897,
+          "width" : 8407,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/cartografia_cart9144.tif",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 8407,
+            "height" : 10897,
+            "sizes" : [ {
+              "width" : 66,
+              "height" : 85
+            }, {
+              "width" : 131,
+              "height" : 170
+            }, {
+              "width" : 263,
+              "height" : 341
+            }, {
+              "width" : 525,
+              "height" : 681
+            }, {
+              "width" : 1051,
+              "height" : 1362
+            }, {
+              "width" : 2102,
+              "height" : 2724
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64, 128 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "https://inova-homolog.bn.gov.br:8183/iiif/2/cartografia_cart9144.tif"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
