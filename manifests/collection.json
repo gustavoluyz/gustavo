@@ -73,5 +73,11 @@
       "en" : [ "Biblioteca Nacional Digital" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://gustavoluyz.github.io/gustavo/manifests/cart9144.json",
+    "label" : {
+      "en" : [ "Encarte: America do Sul, político" ]
+    },
+    "type" : "Manifest"
   } ]
 }
